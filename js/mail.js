@@ -51,7 +51,7 @@ const sendEmail = () => {
   if (!checkInputs(name, email, body)) return;
 
   Email.send({
-    SecureToken: "F73BF26A-179F-1936-3947-EBAA0F14D91C",
+    SecureToken: "F73BF26A-179F-1936-3947-EBAA0F14D91CC92A",
     To: "aazg24@gmail.com",
     From: "aazg24@gmail.com",
     Subject: `Contact from ${name.value}`,
