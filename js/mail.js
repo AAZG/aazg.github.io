@@ -54,8 +54,8 @@ const sendEmail = () => {
     SecureToken: "F73BF26A-179F-1936-3947-EBAA0F14D91CC92A",
     To: "aazg24@gmail.com",
     From: "aazg24@gmail.com",
-    Subject: `Contact from ${name.value}`,
-    Body: `<strong>${name.value}</strong> ha escrito:<br>${body.value}<br><br>Para responder escribir al correo: ${email.value}`,
+    Subject: "Contact from ${name.value}",
+    Body: "<strong>${name.value}</strong> ha escrito:<br>${body.value}<br><br>Para responder escribir al correo: ${email.value}",
   }).then(
     (name.value = ""),
     (email.value = ""),
