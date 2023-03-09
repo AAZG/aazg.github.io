@@ -13,10 +13,10 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-bg: #fff;
-  --clr-dark: #303030;
-  --clr-dark-btn: #302000;
-  --clr-light: #fff;
+  --clr-bg: #65a9e0;
+  --clr-dark: #101017;
+  --clr-dark-btn: #fff;
+  --clr-light: #65a9e0;
   --clr-accent: rgb(0, 156, 222);
 
   --fs-h1: 3rem;
@@ -182,7 +182,7 @@ header {
   margin: 0;
   font-family: var(--ff-secondary);
   font-size: var(--fs-h3);
-  color: var(--clr-accent);
+  color: #fff;
   text-shadow: 1px 1px 2px rgb(92, 87, 87);
 }
 
@@ -342,6 +342,7 @@ header {
     min-width: 250px;
     position: relative;
     z-index: 2;
+    border-radius: 50%;
   }
 
   .section__subtitle--intro {
@@ -460,6 +461,7 @@ header {
 
 .section__services {
   position: relative;
+  color: white;
 }
 
 .services {
@@ -779,6 +781,7 @@ header {
     grid-area: img;
     position: relative;
     z-index: 2;
+    border-radius: 50%;
   }
 
   .social-list {
@@ -1049,4 +1052,13 @@ header {
 
 .my-work__cards--skills i {
   font-size: 1.8rem;
+}
+
+/*Custom properties animation text*/
+.typed-cursor {
+  font-size: 1.5em;
+  position: absolute;
+  top: 51.5%;
+  left: 960px; /* Agrega este valor para ajustar en el eje x */
+  transform: translateY(-50%);
 }

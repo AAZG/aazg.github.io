@@ -18,7 +18,7 @@ const setClearAlert = (input) => {
   parentControl.classList.remove("success");
 };
 
-const checkInputs = (name, email, body) => {
+const checkInputs = (name, email, message) => {
   let result = true;
 
   if (name.value.trim() === "") {
