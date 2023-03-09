@@ -13,10 +13,10 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-bg: #65a9e0;
+  --clr-bg: #AED6F1;
   --clr-dark: #101017;
   --clr-dark-btn: #fff;
-  --clr-light: #65a9e0;
+  --clr-light: #AED6F1;
   --clr-accent: rgb(0, 156, 222);
 
   --fs-h1: 3rem;
@@ -182,7 +182,7 @@ header {
   margin: 0;
   font-family: var(--ff-secondary);
   font-size: var(--fs-h3);
-  color: #fff;
+  color: #101017;
   text-shadow: 1px 1px 2px rgb(92, 87, 87);
 }
 
