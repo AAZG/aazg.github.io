@@ -1,6 +1,6 @@
 window.onload = function() {
   const options = {
-    strings: ["\u00A0Data Scientist | Data Analyst | Python Developer\u00A0"],
+    strings: ["\u00A0Data Scientist 📊 | Python Developer 🐍 | ML/AI 🤖\u00A0"],
     typeSpeed: 100,
     backSpeed: 50,
     backDelay: 2000,
