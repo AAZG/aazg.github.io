@@ -40,13 +40,13 @@
         <ul class="nav__list">
           <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="#services" class="nav__link">Services</a>
+            <a href="#services" class="nav__link">Experiences</a>
           </li>
           <li class="nav__item">
             <a href="#about" class="nav__link">About me</a>
           </li>
           <li class="nav__item">
-            <a href="#my-work" class="nav__link">My Portfolio</a>
+            <a href="#my-work" class="nav__link">Portfolio</a>
           </li>
           <li class="nav__item">
             <a href="http://44zg.blogspot.com/" class="nav__link">Blog</a>
@@ -61,13 +61,13 @@
     <!-- Introduction -->
     <main class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Alfonso Zapata</strong>
+        Hi, I'm <strong>Alfonso Zapata</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro" id="typed-text"></p>
       <script src="./js/typed.js"></script>
       <script src="./js/animation-text.js"></script>
       <img
-        src="./images/me-TO.webp"
+        src="./images/me-TO.png"
         alt="Here we have a picture of me on a walk in nature"
         class="intro__img"
       />
@@ -75,13 +75,15 @@
       <nav class="section__submenu">
         <ul class="section__submenu--list">
           <li class="submenu__list--item">
-            <a href="#services" class="submenu__list--link">Services</a>
+            <a href="#services" class="submenu__list--link">Experiences</a>
           </li>
+          <!-- alt="Go to my Kaggle profile" 
+            title="Go to my Kaggle profile" -->
           <li class="submenu__list--item">
             <a href="#about" class="submenu__list--link">About me</a>
           </li>
           <li class="submenu__list--item">
-            <a href="#my-work" class="submenu__list--link">My Portfolio</a>
+            <a href="#my-work" class="submenu__list--link">Portfolio</a>
           </li>
           <li class="submenu__list--item">
             <a href="http://44zg.blogspot.com/" class="submenu__list--link"
@@ -97,12 +99,26 @@
 
     <!-- My Services -->
     <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
+      <h2 class="section__title section__title--services">What I have done</h2>
       <div class="section__services">
         <div class="services">
           <div class="service">
-            <h3>Data Scientist | Data Analyst | Python Developer</h3>
-            <p>
+            <h3>Data Scientist</h3>
+            <h4 class="experience-details">
+              <span class="experience-date"><em>Sept. 2023 - Nov. 2023,</em></span>
+              <span class="experience-company"><em>InterLinked</em></span>
+            </h4>
+            <p class="experience-details">
+              Implementation of a scalable and efficient database using SQL.
+            </p>
+            <p class="experience-details">
+              Translation of business rules into SQL queries to improve efficiency in business operations.
+            </p>
+            <p class="experience-details">
+              Development of a comprehensive dashboard for billing monitoring and strategic decision making.
+            </p>
+
+            <!-- <p>
               I have experience in the field of data science, with a particular focus on extracting, 
               cleaning, and analyzing large data sets from various sources, such as SQL, .csv, etc.
             </p>
@@ -128,24 +144,28 @@
             <p>
               Throughout my work in data science, I have developed skills in data analysis, market segmentation, 
               effective communication, and more.
-            </p>
+            </p> -->
           </div>
 
-          <!-- <div class="service">
-            <h3>Frontend Development</h3>
-            <p>
-              Building your awesome product from a visual concept to a fully
-              functional application.
+          <div class="service">
+            <h3>Full Stack Developer - Entry-level</h3>
+            <h4 class="experience-details">
+              <span class="experience-date"><em>Aug. 2023 - Sept. 2023,</em></span>
+              <span class="experience-company"><em>Cuni Metal Trading</em></span>
+            </h4>
+            <p class="experience-details">
+              Development of feedback functionality with React Native and TypeScript.
             </p>
-
-            <p>
-              Sketch integrations in Boostrap or plain HTML/CSS and modern
-              single page apps development with VueJS or React.
+            <p class="experience-details">
+              Creation of service in the backend using Firestore to save user feedback.
             </p>
-          </div>-->
+            <p class="experience-details">
+              Monitoring of Scrum methodology to carry out tasks.
+            </p>
+          </div>
         </div>
 
-        <a href="#my-work" class="btn">My Portfolio</a>
+        <a href="#my-work" class="btn">Portfolio</a>
         <div class="section__arrow--up">
           <a href="#header" aria-label="go up to main section"
             ><i class="fas fa-angle-double-up"></i
@@ -163,22 +183,18 @@
 
       <div class="aboute-me__body">
         <p>
-          I seek to apply my skills and experience to analyze and transform large data sets 
-          into useful and valuable information for companies in the technology sector. I am 
-          specialized in statistical analysis, data cleaning, machine learning and Python programming.
+          I'm a dynamic and disciplined person with experience in data exploration and analysis with Python and SQL, capable of learning and using any tool required to facilitate business decision-making in your company. 
         </p>
         <p>
-          I am interested in being part of challenging and dynamic projects that allow me to grow professionally.
+          I'm interested in scalable projects that allow me to participate in the entire data science development process. Multipurpose professional who loves challenges. 
         </p>
         <p>
-          I have skills such as critical thinking and effective communication that allow me 
-          to solve problems in a practical way, have an innovative vision and work efficiently 
-          in a team. In addition, an attitude of constant learning is maintained.
+          I like to take care of my health, so I practice sports such as calisthenics and athletics. Extrovert, I like to generate new interpersonal relationships, I manage a python Discord community and I constantly generate contributions to the community through academic publications on Medium.
         </p>
       </div>
 
       <img
-        src="./images/me-TO.webp"
+        src="./images/me-TO.png"
         alt="Here we have a picture of me on a walk in nature"
         class="about-me__img"
       />
@@ -388,9 +404,9 @@
       </section>
     </section>
 
-    <!-- My Portfolio -->
+    <!-- Portfolio -->
     <section class="my-work" id="my-work">
-      <h2 class="section__title">My Portfolio</h2>
+      <h2 class="section__title">Portfolio</h2>
       <p class="section__subtitle section__subtitle--work">
         A selection of my range of project
       </p>
